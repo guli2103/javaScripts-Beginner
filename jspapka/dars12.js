@@ -1,10 +1,10 @@
 alert("Loops")
 
-let a = 1
-let b = 11
+let a = 0
+let b = 10
 let c = 0
 while (a < b){
     a++
-    c++ 
+    c+=a
     console.log(c)
 }
