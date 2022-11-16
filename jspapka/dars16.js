@@ -1,0 +1,12 @@
+alert("Arrays")
+let a = ['Ada','Adgol',['ARL','DELPHI'],['Vasis','C',['C++','Pascal'],'HTML'],'Java']
+console.log(a[0])
+console.log(a[1])
+console.log(a[2][0])
+console.log(a[2][1])
+console.log(a[3][0])
+console.log(a[3][1])
+console.log(a[3][2][0])
+console.log(a[3][2][1])
+console.log(a[3][3])
+console.log(a[4])

@@ -106,3 +106,24 @@ while (i < 5){
     console.log("dastur ishlamoqda")
     i++
 }
+
+console.log("13-dars vazifalari")
+let tekst = "SUSYS JavaScript kurslari"
+console.log(tekst[1])
+console.log(tekst.length)
+console.log(tekst.toLowerCase())
+console.log(tekst.toUpperCase())
+console.log(tekst.slice(0 , 8))
+console.log(tekst.slice(7))
+console.log(tekst.slice(-8))
+
+console.log(tekst.substring(6))
+
+console.log(tekst.substr(3,9))
+
+let malumot = "SUSYS JavaScript kurslari"
+let yangi = malumot.replace('SUSYS' ,'CIPHER')
+console.log(malumot)
+console.log(yangi)
+
+
