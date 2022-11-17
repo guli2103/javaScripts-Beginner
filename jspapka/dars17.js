@@ -42,10 +42,10 @@ else if(a === "8"){
     console.log( c ,"siz", b[7][0], "dasturlash tili kirityapsiz. Bu dasturlash tili ", b[8][1], "-yillarda yaratilingan")
 }
 else if(a === "9"){
-    console.log( c ,"siz", b[9][0], "dasturlash tili kirityapsiz. Bu dasturlash tili ", b[9][1], "-yillarda yaratilingan")
+    console.log( c ,"siz", b[8][0], "dasturlash tili kirityapsiz. Bu dasturlash tili ", b[8][1], "-yillarda yaratilingan")
 }
 else if(a === "10"){
-    console.log( c ,"siz", b[10][0], "dasturlash tili kirityapsiz. Bu dasturlash tili ", b[10][1], "-yillarda yaratilingan")
+    console.log( c ,"siz", b[9][0], "dasturlash tili kirityapsiz. Bu dasturlash tili ", b[9][1], "-yillarda yaratilingan")
 }
 else{
     console.log("Sonni xato kiritdingiz")
