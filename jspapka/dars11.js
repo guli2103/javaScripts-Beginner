@@ -1,5 +1,9 @@
 alert("Funksiya")
 
+const vaqt = new Date()
+a = vaqt.getMonth()
+console.log(a)
+
 function calc(a,b){
     console.log("yigindisi: ",  a + b)
     console.log( "ayirmasi: " , a - b)
