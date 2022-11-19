@@ -181,9 +181,42 @@ console.log(window.location.href)
 console.log(window.location.hostname)
 console.log(window.location.pathname)
 console.log(window.location.protocol)
-console.log(window.location.assign())
+// console.log(window.location.assign())
 
 console.log("20-DARS VAZIFALARI (History)")
 function ortgaQaytish(){
     window.history.back()
 }
+
+console.log("21-DARS VAZIFALARI (Vaqt funksiyalari) ")
+function myFunc(){
+    alert(` ${ism + fam} Siz vaqt funksiyalari bilan ishlayobsiz`)
+}
+
+console.log("22-DARS VAZIFALARI (Takrolash operatori forda)")
+for(i = 0; i < 20; i++){
+    console.log(i)
+}
+
+
+console.log("23-DARS VAZIFALARI (forni davomi)")
+let mashinalar =['BMW',"Ferreri"," Kia" ,"Mers","Chevrolet"]
+for(let x in  mashinalar ){
+    console.log(mashinalar[x])
+}
+
+console.log("24-DARS VAZIFALARI (Date yani vaqtlar bilan ishlash)")
+const vaqtt = new Date()
+console.log(vaqtt)
+const vaqt1 = new Date('Nov 19 2022')
+console.log(vaqt1)
+const vaqt2 = new Date('2022-11-16')
+console.log(vaqt2)
+const vaqt3 = new Date("19/11/2022")
+console.log(vaqt3)
+
+console.log("25-DARS VAZIFALARI (Date metodlarining davomi)")
+const days = ["0",'Dushanba','Seshanba','Chorshanba','Payshanba','Juma','Shanba','Yakshanba']
+console.log(days[vaqt1.getDay()])
+console.log(days[7])
+
